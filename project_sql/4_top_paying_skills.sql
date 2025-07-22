@@ -20,7 +20,7 @@ group BY
     skills
 order by 
     salary desc
-limit 25
+limit 25;
 
 -- top paying skill in IDR (information for indonesia region per year)
 select 
@@ -38,4 +38,4 @@ group BY
     skills
 order by 
    avg_salary_year_global desc
-limit 25
+limit 25;
