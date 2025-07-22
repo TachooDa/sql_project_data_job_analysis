@@ -76,7 +76,7 @@ find the count of the number of remote job posting per skill
     - include skill idd, name, and count of postings requiring skills
 */
 
--- buat perhitungan nya duly
+-- buat perhitungan nya dulu
 with remote_job_count as (
 select
     skill_id,
