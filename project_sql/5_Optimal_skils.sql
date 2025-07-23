@@ -57,7 +57,7 @@ SELECT
     sd.skills,
     count(sjd.job_id) as demand_count,
     round(avg(jpf.salary_year_avg),0) as avg_salary_year_global,
-    round(avg(jpf.salary_year_avg * 15800),0) as avg_salary_year_idr
+    round(avg(jpf.salary_year_avg * 15800),S0) as avg_salary_year_idr
 
 from job_postings_fact as jpf
 inner join skills_job_dim as sjd on jpf.job_id = sjd.job_id
