@@ -61,9 +61,9 @@ Here's the breakdown of the top paying jobs data analyst in 2023:
 - **Diverse Employers:** Perusahaan seperti SmartAsset, Meta, dan AT&T termasuk yang menawarkan gaji tinggi, mencerminkan ketertarikan luas dari berbagai industri.
 - **Job title Variety:** Terdapat variasi besar pada job title, mulai dari data analyst hingga director of analytics, menunjukkan peran dan spesialisasi yang berbeda dalam bidang data analytics.
 
-  ![Top Paying Roles](assets/1_top_paying_job.png)
+  ![Top Paying Roles](assets\1_top_paying_job.png)
   _Bar graph visualizing the salary for the top 10 salaries for data analyst_
-  ![Salary trend overtime](assets/1_salary_trend.png)
+  ![Salary trend overtime](assets\1_salary_trend.png)
   _Line graph/chart visualizing the salary trend over time of the top 10 salaries for data analyst jobs/role_
 
 ### 2. Skill for top Paying jobs
@@ -105,7 +105,7 @@ Here's the breakdown of the most in-demand skills for the top 10 highest paying 
 - **Python** menyusul dengan 7 kali kemunculan.
 - **Tableu** juga banyak dicari, muncul sebanyak 6 kali. Skill lain seperti _R_, _Snowflake_, dan _Excel_ juga menunjukkan tingkat permintaan yang beragam.
 
-  ![Skill for Top/Highest Paying Roles](assets/2_top_in-demand_jobs.png)
+![Skill for Top/Highest Paying Roles](assets\2_top_in-demand_jobs.png)
 
 ### 3. In Demanded Skills For Data Analyst
 
@@ -116,7 +116,7 @@ Here's the breakdown of the top demanded skills for the top 5 demanded skills da
 
 - SQL memimpin dengan 7.291 lowongan kerja (15,50%), menegaskan perannya sebagai skill paling penting bagi Data Analyst, diikuti oleh Excel (4.611) dan Python (4.330) yang masih sangat dihargai untuk data manipulation dan automation.
 - Tableau (3.745) dan Power BI (2.609) melengkapi lima besar, mencerminkan tingginya permintaan akan kemampuan visualisasi data dan alat business intelligence dalam pekerjaan analis data (remote jobs).
-  ![top demanded skill remote jobs only](assets/3_top_Demand_skills.png)
+  ![top demanded skill remote jobs only](assets\3_top_Demand_skills.png)
   _This chart show the top 5 In demanded skills for data analyst_
 
 ### 4. Skill Based on Salary
@@ -128,7 +128,7 @@ This bar chart shows which skills are linked to the highest average salaries for
 - Skill lain yang juga dibayar tinggi meliputi _Bitbucket_, _Couchbase_, _Watson_, dan _Datarobot_, masing-masing dengan gaji di atas $170.000.
 - Alat-alat terkait _data engineering_, _cloud platform_, dan machine learning (seperti _Databricks_, _Kubernetes_, _Airflow_, _GCP_, dll.) juga masuk dalam daftar teratas.
 - Bahkan alat inti seperti _Pandas_, _Numpy_, dan _Jupyter_ masuk dalam 25 besar, menunjukkan nilai pasar mereka yang tinggi.
-  ![top paying skills](assets/4_top_paying_skills.png)
+  ![top paying skills](assets\4_top_paying_skills.png)
 
 ### 5. Most Optimal Skills to learn
 
@@ -140,7 +140,7 @@ This chart shows the top 15 optimal skills with for remote Data Analyst roles in
 - Tableau dan Power BI menunjukkan pentingnya kemampuan dalam visualisasi data.
 - Tool seperti Snowflake, Azure, dan Go juga masuk daftar — mencerminkan kebutuhan yang semakin besar akan keahlian cloud dan big data.
 
-![Optimal Skills](assets/5_optimal_skills.png)
+![Optimal Skills](assets\5_optimal_skills.png)
 
 # What I learned
 
