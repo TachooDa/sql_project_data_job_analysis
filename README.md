@@ -65,6 +65,7 @@ Here's the breakdown of the top paying jobs data analyst in 2023:
   _Bar graph visualizing the salary for the top 10 salaries for data analyst_
 
   ![Salary trend overtime](assets\1_salary_trend.png)
+  
   _Line graph/chart visualizing the salary trend over time of the top 10 salaries for data analyst jobs/role_
 
 ### 2. Skill for top Paying jobs
@@ -119,6 +120,7 @@ Here's the breakdown of the top demanded skills for the top 5 demanded skills da
 - Tableau (3.745) dan Power BI (2.609) melengkapi lima besar, mencerminkan tingginya permintaan akan kemampuan visualisasi data dan alat business intelligence dalam pekerjaan analis data (remote jobs).
 
   ![top demanded skill remote jobs only](assets\3_top_demand_skills.png)
+  
   _This chart show the top 5 In demanded skills for data analyst_
 
 ### 4. Skill Based on Salary
