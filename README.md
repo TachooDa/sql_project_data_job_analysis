@@ -61,7 +61,8 @@ Here's the breakdown of the top paying jobs data analyst in 2023:
 - **Diverse Employers:** Perusahaan seperti SmartAsset, Meta, dan AT&T termasuk yang menawarkan gaji tinggi, mencerminkan ketertarikan luas dari berbagai industri.
 - **Job title Variety:** Terdapat variasi besar pada job title, mulai dari data analyst hingga director of analytics, menunjukkan peran dan spesialisasi yang berbeda dalam bidang data analytics.
 
-  ![Top Paying Roles](assets\1_top_paying_job.png)
+  ![Top Paying Roles](assets/1_top_paying_job.png)
+  
   _Bar graph visualizing the salary for the top 10 salaries for data analyst_
 
   ![Salary trend overtime](assets\1_salary_trend.png)
