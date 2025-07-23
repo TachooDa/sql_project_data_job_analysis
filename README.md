@@ -116,7 +116,7 @@ Here's the breakdown of the top demanded skills for the top 5 demanded skills da
 
 - SQL memimpin dengan 7.291 lowongan kerja (15,50%), menegaskan perannya sebagai skill paling penting bagi Data Analyst, diikuti oleh Excel (4.611) dan Python (4.330) yang masih sangat dihargai untuk data manipulation dan automation.
 - Tableau (3.745) dan Power BI (2.609) melengkapi lima besar, mencerminkan tingginya permintaan akan kemampuan visualisasi data dan alat business intelligence dalam pekerjaan analis data (remote jobs).
-  ![top demanded skill remote jobs only](assets\3_top_Demand_skills.png)
+  ![top demanded skill remote jobs only](assets\3_top_demand_skills.png)
   _This chart show the top 5 In demanded skills for data analyst_
 
 ### 4. Skill Based on Salary
