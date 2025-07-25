@@ -16,7 +16,7 @@ SELECT
 from job_postings_fact as jpf
 left join company_dim as cd on jpf.company_id = cd.company_id
 where jpf.job_title_short = 'Data Analyst' AND
-    round(jpf.salary_year_avg,0) is not null AND
+    round(jpf.salary_year_avg,0) is not null AND 
     jpf.job_location = 'Anywhere'
 order BY    
     salary desc

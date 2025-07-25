@@ -7,35 +7,35 @@ Question : What are the top skills base on salary
 */
 
 select 
-    skills,
+    sd.skills,
     round(avg(jpf.salary_year_avg),0)as salary
 from job_postings_fact as jpf
 inner join skills_job_dim as sjd on jpf.job_id = sjd.job_id
 inner join skills_dim as sd on sjd.skill_id = sd.skill_id
 WHERE
-    job_title_short = 'Data Analyst' AND
-    jpf.salary_year_avg is not null and
-    job_work_from_home = true
+    jpf.job_title_short = 'Data Analyst' AND
+    jpf.salary_year_avg is not null AND
+    jpf.job_work_from_home = true
 group BY    
-    skills
+    sd.skills
 order by 
     salary desc
 limit 25;
 
 -- top paying skill in IDR (information for indonesia region per year)
 select 
-    skills,
+    sd.skills,
     round(avg(jpf.salary_year_avg),0)as avg_salary_year_global,
     round(avg(jpf.salary_year_avg * 15800),0)as avg_salary_year_idr -- 15800 nilai tukar rupiah terhadap dollar pada tahun 2023
 from job_postings_fact as jpf
 inner join skills_job_dim as sjd on jpf.job_id = sjd.job_id
 inner join skills_dim as sd on sjd.skill_id = sd.skill_id
 WHERE
-    job_title_short = 'Data Analyst' AND
+    jpf.job_title_short = 'Data Analyst' AND
     jpf.salary_year_avg is not null and
-    job_work_from_home = true
+    jpf.job_work_from_home = true
 group BY    
-    skills
+    sd.skills
 order by 
    avg_salary_year_global desc
 limit 25;

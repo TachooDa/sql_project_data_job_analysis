@@ -9,7 +9,7 @@ Question: What are the most in-demand skills for data analyts?
 
 
     select 
-        skills,
+        sd.skills,
         count(sjd.job_id) as demand_count,
         round(count(sjd.job_id) *100 / sum(count(sjd.job_id)) over(), 2) as percentage
     from job_postings_fact as jpf
@@ -17,8 +17,8 @@ Question: What are the most in-demand skills for data analyts?
     inner join skills_dim as sd on sjd.skill_id = sd.skill_id
 
     WHERE
-        job_title_short = 'Data Analyst' 
-        and job_work_from_home = true
+        jpf.job_title_short = 'Data Analyst' 
+        and jpf.job_work_from_home = true
     group BY    
         skills
     order by 

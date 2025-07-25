@@ -17,7 +17,7 @@ with skills_demand as (
     inner join skills_dim as sd on sjd.skill_id = sd.skill_id
     WHERE
         jpf.job_title_short = 'Data Analyst' AND
-        jpf.salary_year_avg is not null and
+        jpf.salary_year_avg is not null and  
         jpf.job_work_from_home = true
     group BY    
         sd.skill_id
@@ -53,24 +53,26 @@ order by
 -- same result query
 
 SELECT
+    jpf.job_location,
     sd.skill_id,
     sd.skills,
     count(sjd.job_id) as demand_count,
     round(avg(jpf.salary_year_avg),0) as avg_salary_year_global,
-    round(avg(jpf.salary_year_avg * 15800),S0) as avg_salary_year_idr
+    round(avg(jpf.salary_year_avg * 15800),0) as avg_salary_year_idr
 
 from job_postings_fact as jpf
 inner join skills_job_dim as sjd on jpf.job_id = sjd.job_id
 inner join skills_dim as sd on sjd.skill_id = sd.skill_id
 WHERE  
     jpf.job_title_short = 'Data Analyst'
-    and jpf.salary_year_avg is not NULL
-    and jpf.job_work_from_home = TRUE
+    and jpf.salary_year_avg is not null
+    and jpf.job_location = 'Indonesia'
 group BY
-    sd.skill_id
+    sd.skill_id,
+    jpf.job_location
 HAVING 
-    Count(sjd.job_id) > 10
+    Count(sjd.job_id) > 1
 order BY
     demand_count DESC,
     avg_salary_year_global desc
-limit 25;
+limit 5;
